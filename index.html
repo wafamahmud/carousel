@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Pagination</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -9,38 +9,21 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container">
-    <h2>Carousel Example</h2>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol>Carousel Indicators
-        <li data-target="#myCarousel" data-slide-to="0" class="Active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol> 
-
-        <div class="Carousel-inner">
-            <div class="item-active">
-                <img src="pic-1" alt="image-1">
-            </div>
-
-            <div class="item">
-                    <img src="pic-2" alt="image-2">
-                </div>
-
-
-                <div class="item">
-                        <img src="pic-3" alt="image-3">
-                    </div>
-
-
-
-        </div>
-
-        <a class="left carousel-control" href="" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fjenniferlownes%2Faesthetic-pastel-wallpaper%2F&psig=AOvVaw0qmOIAgXOZEvN9Uedt0vgN&ust=1725985673656000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIj9reqjtogDFQAAAAAdAAAAABAE">1</a></li>
+          <li class="page-item"><a class="page-link" href="https://i.pinimg.com/236x/4b/d5/dd/4bd5dd57c1c8ca3325ab40b0ec0a2339.jpg">2</a></li>
+          <li class="page-item"><a class="page-link" href="https://static.vecteezy.com/system/resources/thumbnails/028/713/714/small_2x/alone-male-in-in-the-room-cartoon-illustration-art-free-photo.jpg">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
 </body>
-</html>
